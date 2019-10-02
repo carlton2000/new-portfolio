@@ -1,0 +1,344 @@
+body{
+  background: url("https://cdn.wallpapersafari.com/72/7/16mLr8.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 1300px;       /*This displays the background img and where you could size it*/
+}
+
+.headed{
+  background: url("https://demo.qodeinteractive.com/bridge1/wp-content/uploads/2014/03/headerimg4.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 1300px;
+	padding: 350px;
+}
+.nav{
+	float: right;               /*changes in the nav bar and displaying it*/
+	list-style-type: none;
+	margin-top: 10px; 
+	color: #fff;
+	position: fixed;
+}
+.color{
+	color: #fff;
+}
+.nav li{
+	display: inline-block;            /*making everything inline*/
+}
+.nav li a{
+	text-decoration: none;         /*getting rid of the bullets*/
+	color: #14100F;                /*changing the color of the wording*/ 
+	padding: 10px 20px;
+	transition: 0.5s ease;
+	color: #fff;            
+}
+.nav li a:hover{
+	background-color: #5FC6D1;          /*the hovering changes color*/
+	color: #000; 
+}
+.navs{
+	float: right;               /*changes in the nav bar and displaying it*/
+	list-style-type: none;
+	margin-top: 10px; 
+	color: #fff;
+	position: sticky;
+}
+.navs li{
+	display: inline-block;            /*making everything inline*/
+}
+.navs li a{
+	text-decoration: none;         /*getting rid of the bullets*/
+	color: #14100F;                /*changing the color of the wording*/ 
+	padding: 10px 20px;
+	transition: 0.5s ease;
+	color: #fff;            
+}
+
+.title{
+	position: absolute; 
+	top: 20%;
+	bottom: 50%;
+	left: 32%;
+	right: 50;               
+	       /*positioning the img*/
+}
+.title h1{
+	color: black;
+	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
+}
+.title h4{
+	font-family: 'Permanent Marker', cursive;
+}
+h4{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+}
+.font{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+}
+.cv{
+	color: #000;
+	font-size: 50px;
+	position: relative;
+   -webkit-animation: mymove 10s infinite; 
+   animation: mymove 10s infinite;
+}
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+.button{
+	position: absolute;
+	bottom: 10%;
+    left: 50%;
+	transform: translate(-50%,-50%);         /*positioning the img*/
+}
+body, html {
+  height: 100%;
+}
+.parallax {
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cent{
+	text-align: center;
+}
+.column{
+  width: 50%;
+  padding: 0px;
+  height: 500px; /* Should be removed. Only for demonstration */
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+/*  transition: 1s;
+  opacity: 1.5;*/
+}
+/* Clear floats after the columns */
+.row{
+  content: "";
+  display: table;
+  clear: both;
+  align-items: center;
+  align-content: center;
+}
+*{
+	box-sizing: border-box;
+}
+.colum {
+  padding: 5px;
+  float: left;
+  width: 25%;
+  text-align: center;
+  border-radius: 100px;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.rows {
+	margin: 0;
+	padding: 5px;
+}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 10px) {
+  .colum {
+    width: 20%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+/* Style the counter cards */
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: rgba(181, 201, 201, 0.2);
+  border-radius: 100px;
+  transition: 1s;
+  opacity: 1.5;
+}
+
+.btn{
+	border: 1px solid #000;
+	padding: 5px 10px;
+}
+div a{
+	color: #1F3DAB;
+	text-decoration: none; 
+}
+.btn:hover{
+	background-color: #5FC6D1;
+	color: #000;
+	transition: 0.6s ease;           /*the hovering changes color*/
+}
+.bodied{
+	top: 50%;
+}
+.img1{
+	height:100px;
+	width: 100px;
+	border-radius: 1000px;
+    filter: grayscale(100%);
+    float: right;
+}
+.img2{
+	 border-radius: 1000px;
+	  filter: grayscale(100%);
+	  text-align: center;
+}
+.about{
+	padding: -10px;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	text-decoration: overline;
+}
+.abouted{
+	text-align: center;
+	padding: 50px;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
+	text-decoration: overline;
+}
+.wrap{
+	width: 1000px;
+	margin: auto;
+	margin-top: 10px;
+}
+.carded{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+	transition: 0.4s;
+	width: 150px;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Permanent Marker', cursive;
+	float: left;
+	margin: 10px;
+}
+.carded:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+	color: #fff;
+}
+.container{
+	padding: 2px 16px;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 410px; /* Should be removed. Only for demonstration */
+  text-align: center;
+  transition: 1s;
+  opacity: 1.5;
+  border-radius: 5px;
+}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.educat{
+	list-style-type: circle;
+}
+.columned {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  transition: 0.4s;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  height: 200px; /* Should be removed. Only for demonstration */
+  border-radius: 10px;
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+}
+.columned:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+	color: #fff;
+}
+
+/* Clear floats after the columns */
+.rowed:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.hobbies{
+	margin-left: 9%;
+}
+.projects{
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
+	text-decoration: overline;
+}
+.oval{
+	border-radius: 200px;
+	height: 130px;
+	width: 130px;
+}
+.downloads{
+	text-align: center;
+	padding: 20px;
+}
+.download{
+	align-items: center;
+	position: relative;
+	display: inline-block;
+	padding: 10px 15px;
+	color: #000000;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 10px;
+	overflow: hidden;
+	transition: 0.2s;	 
+}
+.download:hover{
+	color: #000000;
+	background-color: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+.download span{
+	position: absolute;
+	display: block;
+}
+.footer {
+   height: 20px;
+   bottom: 0;
+   width: 100%;
+   color: #000;
+   text-align: center;
+}
