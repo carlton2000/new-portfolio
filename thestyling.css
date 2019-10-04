@@ -99,9 +99,14 @@ h4{
 
 .button{
 	position: absolute;
-	bottom: 10%;
+	bottom: 5%;
     left: 50%;
 	transform: translate(-50%,-50%);         /*positioning the img*/
+}
+.button:hover{
+	color: #000000;
+	background-color: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 body, html {
   height: 100%;
@@ -175,12 +180,15 @@ body, html {
 }
 /* Style the counter cards */
 .card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
   text-align: center;
-  background-color: rgba(181, 201, 201, 0.2);
+  /*background-color: rgba(181, 201, 201, 0.2);*/
   border-radius: 100px;
   transition: 1s;
   opacity: 1.5;
+  	color: #000000;
+	background-color: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
 .btn{
@@ -260,6 +268,11 @@ div a{
   opacity: 1.5;
   border-radius: 5px;
 }
+.col:hover{
+	color: #000000;
+	background-color: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
 
 /* Clear floats after the columns */
 .rows:after {
@@ -283,8 +296,9 @@ div a{
   filter: alpha(opacity=50);
 }
 .columned:hover{
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
-	color: #fff;
+	color: #ffff;
+	background-color: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
 /* Clear floats after the columns */
@@ -298,11 +312,14 @@ div a{
 }
 .projects{
 	text-align: center;
-	padding: 20px;
+	padding: 50px;
 	color: #fff;
 	font-size: 30px;
 	font-family: 'Permanent Marker', cursive;
 	text-decoration: overline;
+}
+.font{
+	font-family: 'Permanent Marker', cursive;
 }
 .oval{
 	border-radius: 200px;
@@ -341,4 +358,5 @@ div a{
    width: 100%;
    color: #000;
    text-align: center;
+   font-family: 'Permanent Marker', cursive;
 }
