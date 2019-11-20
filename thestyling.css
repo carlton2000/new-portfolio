@@ -1,3 +1,18 @@
+/*body{
+  background: url("https://cdn.wallpapersafari.com/72/7/16mLr8.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 1500px;       
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-image: url('https://cdn.wallpapersafari.com/72/7/16mLr8.jpg');
+  }
+}*/
+
 .headed{
   background: url("https://demo.qodeinteractive.com/bridge1/wp-content/uploads/2014/03/headerimg4.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -109,14 +124,7 @@
 .title h4{
 	font-family: 'Permanent Marker', cursive;
 }
-h4{
-	font-family: 'Permanent Marker', cursive;
-	font-size: 20px;
-}
-.font{
-	font-family: 'Permanent Marker', cursive;
-	font-size: 20px;
-}
+
 .cv{
 	color: #000;
 	font-size: 50px;
@@ -151,13 +159,24 @@ h4{
 .cent{
 	text-align: center;
 }
+
+h4{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+}
+.fonted{
+  font-family: 'Solway', serif;
+  font-size: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
 .column{
-  width: 50%;
+  width: 80%;
   padding: 0px;
-  height: 500px; /* Should be removed. Only for demonstration */
+  height: 650px; /* Should be removed. Only for demonstration */
   opacity: 5;
   filter: alpha(opacity=50);
-  text-align: center;
+  /*text-align: center;*/
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
@@ -325,7 +344,11 @@ div a{
 
 .educat{
   list-style-type: none;
+  font-family: 'Solway', serif;
 
+}
+.under{
+  text-decoration: underline;
 }
 .columned {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
@@ -429,6 +452,10 @@ div a{
   	color: #000000;
 	background-color: #2196f3;
 	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+.wide{
+  text-align: center;
+  font-size: 50px;
 }
 .footer {
    height: 20px;
